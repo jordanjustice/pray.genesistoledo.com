@@ -100,7 +100,7 @@ hr.bottom {
 	padding: 0;
 }
 
-a.circle {
+a.btn {
 	margin: 40px 0;
 	padding: .5em 1em;
 	background: #333333;
@@ -116,7 +116,7 @@ a.circle {
 	-moz-transition:all 400ms ease;
 }
 
-a.circle:hover {
+a.btn:hover {
 	background: #222222;
 	;
 }
@@ -124,5 +124,9 @@ a.circle:hover {
 @media only screen and (max-width: 640px) {
 	.container {
 		width: 94%;
+	}
+
+	a.btn {
+		display: block;
 	}
 }
