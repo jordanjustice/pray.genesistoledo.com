@@ -1,2 +1,7 @@
-##Sinatra based Common Prayer app
-Plan on using sinatra to import data from CSV file to display daily lections on site based on date.
+#Common Prayer for Genesis Christian Fellowship
+
+This is first little Sinatra app built for [Genesis](http://genesistoledo.com).
+
+Uses a csv full of the lectionary readings for the year, and displays them based on date for the morning prayer.
+
+Hosted on Heroku. 
